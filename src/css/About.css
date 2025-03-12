@@ -1,0 +1,319 @@
+.my-img-div {
+    width: 400px;
+    /* height: 400px; */
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#my-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about-main-div {
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+#my-bio-text {
+    font-size: 48px;
+}
+#my-bio {
+    width: 100%;
+    color: #939393;
+    margin: 10px 0;
+}
+.my-bio-texts {
+    width: 29%;
+    position: relative;
+}
+.deg-div1 {
+    width: 30px;
+    height: 15px;
+    /* background-color: blue; */
+    background-image: linear-gradient(to right, rgb(0, 0, 252), rgb(74, 105, 198));
+    font-size: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    position: absolute;
+    right: 4%;
+    bottom: -20px;
+}
+.deg-div2 {
+    width: 30px;
+    height: 15px;
+    /* background-color: blue; */
+    background-image: linear-gradient(to right, rgb(0, 0, 252), rgb(74, 105, 198));
+    font-size: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    position: absolute;
+    right: 1%;
+    bottom: -20px;
+}
+.deg-div3 {
+    width: 30px;
+    height: 15px;
+    /* background-color: blue; */
+    background-image: linear-gradient(to right, rgb(0, 0, 252), rgb(74, 105, 198));
+    font-size: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    position: absolute;
+    right: 6%;
+    bottom: -20px;
+}
+.deg-div4 {
+    width: 30px;
+    height: 15px;
+    /* background-color: blue; */
+    background-image: linear-gradient(to right, rgb(0, 0, 252), rgb(74, 105, 198));
+    font-size: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    position: absolute;
+    right: 6%;
+    bottom: -20px;
+}
+.triangle {
+    position: absolute;
+    bottom: 13px;
+    width: 10px;
+    height: 7px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-image: linear-gradient(to right, rgb(0, 0, 252), rgb(40, 78, 189));
+}
+.grey-line {
+    width: 100%;
+    height: 4px;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+    position: relative;
+}
+.blue-line1 {
+    width: 92%;
+    height: 4px;
+    background-image: linear-gradient(to right, rgb(0, 0, 252), rgb(119, 142, 211));
+    border-radius: .25rem;
+}
+.blue-line2 {
+    width: 95%;
+    height: 4px;
+    background-image: linear-gradient(to right, rgb(0, 0, 252), rgb(119, 142, 211));
+    border-radius: .25rem;
+}
+.blue-line3 {
+    width: 90%;
+    height: 4px;
+    background-image: linear-gradient(to right, rgb(0, 0, 252), rgb(119, 142, 211));
+    border-radius: .25rem;
+}
+.blue-line4 {
+    width: 90%;
+    height: 4px;
+    background-image: linear-gradient(to right, rgb(0, 0, 252), rgb(119, 142, 211));
+    border-radius: .25rem;
+}
+.about-deg-main {
+    margin-top: 20px;
+}
+.about-deg {
+    margin-bottom: 30px;
+}
+.first-button {
+    padding: 15px 30px;
+    border-radius: 63px;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .05rem;
+    border: none;
+    color: #fff;
+    background-color: blue;
+    transition: 0.4s;
+}
+.first-button:hover {
+    background-color: rgb(76, 124, 246);
+}
+.second-button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 63px;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .05rem;
+    border: none;
+    color: #fff;
+    background-color: #6c757d;
+    transition: 0.4s;
+}
+.second-button:hover {
+    background-color: #8d97a0;
+}
+.about-button-div {
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+}
+#about-img {
+    width: 78%;
+    object-fit: cover;
+}
+.round1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: linear-gradient(to right, rgb(0, 0, 252) ,rgb(119, 142, 211)); */
+}
+.theme-color-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.theme-color {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    z-index: -1;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 1px 1px 130px 130px rgb(24, 58, 182);
+    border-radius: 50%;
+}
+.circle{
+    position:absolute;
+    top: 50%;
+    left: 65%;
+    transform:translate(-50%,-50%);
+    /* height:35px; */
+    width:35px;
+    border-radius:50%;
+    /* border:2px solid black; */
+  }
+  .circle2{
+    position:absolute;
+    top: 30%;
+    left: 70%;
+  }
+  .circle3{
+    position:absolute;
+    top: 55%;
+    left: 8%;
+  }
+  .circle4{
+    position:absolute;
+    top: 30%;
+    left: 20%;
+  }
+  .circle5{
+    position:absolute;
+    top: 70%;
+    left: 39%;
+  }
+  #circle-img1 {
+    width: 120px;
+    height: auto;
+  }
+  #circle-img2 {
+    width: 50px;
+    height: 50px;
+  }
+  #circle-img3 {
+    width: 50px;
+    height: 50px;
+  }
+  #circle-img4 {
+    width: 50px;
+    height: 50px;
+  }
+  #circle-img5 {
+    width: 90px;
+    height: auto;
+  }
+
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+    .my-bio-texts {
+        width: 34%;
+    }
+    .about-main-div {
+        gap: 50px;
+        margin-top: 0px;
+    }
+
+}
+
+@media screen and (max-width: 767px) and (min-width: 600px) {
+    .my-bio-texts {
+        width: 60%;
+    }
+    #my-bio-text {
+        font-size: 35px;
+    }
+    .about-main-div {
+        gap: 30px;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 599px) and (min-width: 400px) {
+    .my-bio-texts {
+        width: 80%;
+    }
+    #my-bio-text {
+        font-size: 35px;
+    }
+    .about-main-div {
+        gap: 30px;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 0;
+    }
+    #about-img {
+        width: 130px;
+    }
+    .my-img-div {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 399px) and (min-width: 300px) {
+    .my-bio-texts {
+        width: 60%;
+    }
+    #my-bio-text {
+        font-size: 30px;
+        padding-top: 40px;
+    }
+    .about-main-div {
+        gap: 30px;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 0;
+    }
+    .my-img-div {
+        width: 300px;
+        height: 400px;
+    }
+
+}

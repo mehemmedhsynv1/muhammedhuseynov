@@ -1,0 +1,122 @@
+#resume-big-text {
+    font-size: 48px;
+    text-align: center;
+}
+.resume-img-div {
+    width: 350px;
+    height: 350px;
+    background-image: linear-gradient(to right, rgb(0, 0, 252), rgb(119, 142, 211));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+#resume-img {
+    width: 75%;
+    height: 75%;
+    background-color: white;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#work-exp-text {
+    font-size: 28px;
+    margin-bottom: 35px;
+}
+.resume-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin: 60px 0;
+}
+#company-name {
+    font-size: 18px;
+}
+.res-div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    color: #939393;
+}
+.res-main-div {
+    display: flex;
+    gap: 50px;
+}
+.resume-main-div {
+    margin: 80px 0;
+}
+.resume-t-div {
+    display: flex;
+    justify-content: space-between;
+}
+.resume-texts-div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+.work-exp-main {
+    width: 35%;
+}
+#work-name {
+    font-size: 18px;
+}
+.resume-b-div {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.full-time {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    padding: 7px 20px;
+    border-radius: 30px;
+    background: rgba(150, 187, 124, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 767px) and (min-width: 500px) {
+    .resume-div {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .work-exp-main {
+        width: 80%;
+    }
+    .resume-img-div {
+        width: 300px;
+        height: 300px;
+    }
+    #resume-big-text {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 499px) and (min-width: 300px) {
+    .resume-div {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .work-exp-main {
+        width: 80%;
+    }
+    .resume-img-div {
+        width: 270px;
+        height: 270px;
+    }
+    .res-main-div {
+        gap: 25px;
+    }
+    #resume-big-text {
+        font-size: 35px;
+    }
+    .resume-t-div {
+        gap: 30px;
+    }
+}
+

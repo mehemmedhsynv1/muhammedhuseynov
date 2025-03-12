@@ -1,0 +1,74 @@
+{
+    "services_infos" : {
+        "services_text" : "Services",
+        "name1" : "Responsive Web Development",
+        "title1" : "Preparing websites for mobile and other devices.",
+        "name2" : "API Integration",
+        "title2" : "Connect to backend APIs and display data dynamically.",
+        "name3" : "Animations & Effects",
+        "title3" : "Creating interactive animations with CSS and JavaScript."
+    },
+    "header_buttons" : {
+        "home" : "Home",
+        "about" : "About",
+        "portfolio" : "Portfolio",
+        "services" : "Services",
+        "resume" : "Resume",
+        "contact" : "Contact"
+    },
+    "home_texts" : {
+        "my_name" : "I'm Mahammad Huseynov",
+        "my_job" : "A Junior Front-end Developer",
+        "welcome" : "Welcome to my",
+        "my_portfolio" : "Portfolio"
+    },
+    "my_bio_texts" : {
+        "my_bio" : "My Bio",
+        "bio" : "Hi, I am Muhammed Huseynov. I have a great interest in the field of front end and I am trying to develop myself in this field.",
+        "hire_me" : "hire me",
+        "download_cv" : "download cv"
+    },
+    "my_portfolio_texts" : {
+        "my_portfolio" : "My Portfolio",
+        "all" : "All",
+        "happy" : "Responsiveness",
+        "sad" : "Animation & Effect",
+        "love" : "API Integration"
+    },
+    "resume_texts" : {
+        "resume" : "Resume",
+        "work_exp" : "Work Experience",
+        "job_name" : "Junior Front End Developer",
+        "job_time" : "fulltime",
+        "company" : "PoladTech Project",
+        "city" : "Baku",
+        "date" : "February 2025",
+        "certificate" : "Certificate",
+        "c_name" : "Front End Development",
+        "date2" : "May 2024 - February 2025"
+    },
+    "contact_me_texts" : {
+        "contact_me" : "Contact Me",
+        "first_name" : "Name",
+        "last_name" : "Surname",
+        "email" : "Email address",
+        "message" : "Message",
+        "send_message" : "send message",
+        "address" : "Addres",
+        "address_text" : "Baku city, Yasamal",
+        "phone"  : "Phone"
+    },
+    "footer_texts" : {
+        "about" : "About",
+        "about_text" : "I am Muhammed Huseynov. I have a great interest in the field of front end and I am trying to develop myself in this field.",
+        "connect" : "Connect",
+        "services" : "Services",
+        "responsive" : "Responsive Design",
+        "api" : "API Integration",
+        "animation" : "Animations & Effects",
+        "portfolio" : "Portfolio",
+        "contact" : "Contact",
+        "address" : "Baku city, Yasamal"
+    }
+
+}

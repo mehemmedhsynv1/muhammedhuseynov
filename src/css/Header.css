@@ -1,0 +1,151 @@
+.header-main-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    z-index: 1;
+    transition: 0.5s;
+}
+.header-icon-div {
+    border: 2px solid white;
+    width: 40px;
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    font-size: 23px;
+}
+.header-buttons-div {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    color: #fff;
+}
+.header-button {
+    cursor: pointer;
+}
+.select-lang {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+.select-lang2 {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-bottom: 40px;
+}
+.link-slide {
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.header-underline {
+    display: flex;
+    justify-content: center;
+    width: 0px;
+    height: 3px;
+    background-color: #fff;
+    transition: 0.3s;
+}
+.link-div:hover .header-underline{
+    width: 100%;
+}
+.slide-div-main {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 300px;
+    background-color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.open {
+    right: 0;
+}
+.hamburger-menu {
+    color: #fff;
+    font-size: 36px;
+    display: none;
+    margin-right: 80px;
+    cursor: pointer;
+}
+.header-underline2 {
+    display: flex;
+    justify-content: center;
+    width: 0px;
+    height: 3px;
+    background-color: rgb(34, 85, 161);
+    transition: 0.3s;
+}
+.link-div:hover .header-underline2{
+    width: 100%;
+}
+.exit-div {
+    font-size: 30px;
+    position: absolute;
+    right: 230px;
+    top: 40px;
+    z-index: 1;
+    cursor: pointer;
+}
+/* .my-logo-div {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(45, 86, 233);
+    box-sizing: border-box;
+} */
+
+#my-logo {
+    width: 100px;
+}
+@media screen and (max-width: 1000px) {
+    .header-buttons-div {
+        display: none;
+    }
+    .header-main-div {
+        justify-content: space-between;
+    }
+    .select-lang {
+        display: none;
+    }
+    .header-icon-div {
+        margin-left: 80px;
+    }
+    .hamburger-menu {
+        display: block;
+    }
+    .my-logo-div {
+        margin-left: 40px;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 300px) {
+    .header-icon-div {
+        margin-left: 60px;
+    }
+    .my-logo-div {
+        margin-left: 30px;
+    }
+    .hamburger-menu {
+        margin-right: 40px;
+    }
+}

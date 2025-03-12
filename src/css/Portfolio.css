@@ -1,0 +1,123 @@
+#portfolio-big-text {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.p-buttons-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    color: #939393;
+}
+.portfolio-box {
+    width: 100%;
+    height: 210px;
+    background-image: linear-gradient(to right, rgb(0, 0, 176), rgb(119, 142, 211));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    opacity: 1;
+}
+.portfolio-box2 {
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(to right, rgb(0, 0, 176), rgb(119, 142, 211));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    opacity: 1;
+}
+.portfolio-box3 {
+    width: 100%;
+    height: 270px;
+    background-image: linear-gradient(to right, rgb(0, 0, 176), rgb(119, 142, 211));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    opacity: 1;
+}
+.portfolio-boxes-main {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+.port-box-div {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#p-box-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* background-image: linear-gradient(to right, rgb(119, 142, 211), rgb(0, 0, 176)); */
+    /* border-radius: 50%; */
+}
+#p-box-img-t {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* background-image: linear-gradient(to right, rgb(119, 142, 211), rgb(0, 0, 176)); */
+    /* border-radius: 50%; */
+}
+.p-buttons {
+    cursor: pointer;
+}
+.show {
+    opacity: 1;
+    transform: scale(1);
+}
+.hidden {
+    /* opacity: 0; */
+    transform: scale(0);
+    /* width: 0px; */
+    height: 0px !important;
+}
+.active {
+    color: blue;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+    .port-box-div {
+        width: 28%;
+    }
+    .portfolio-box {
+        height: 180px;
+    }
+    .portfolio-box2 {
+        height: 280px;
+    }
+    .portfolio-box3 {
+        height: 240px;
+    }
+    
+}
+
+
+@media screen and (max-width: 767px) and (min-width: 300px) {
+    .port-box-div {
+        width: 60%;
+    }
+    .portfolio-box {
+        height: 250px;
+    }
+    .portfolio-box2 {
+        height: 250px;
+    }
+    .portfolio-box3 {
+        height: 250px;
+    }
+    .portfolio-boxes-main {
+        flex-direction: column;
+        align-items: center;
+    }
+    #portfolio-big-text {
+        font-size: 35px;
+    }
+}

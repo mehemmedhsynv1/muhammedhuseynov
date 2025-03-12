@@ -1,0 +1,73 @@
+{
+    "services_infos" : {
+        "services_text" : "Xidmətlər",
+        "name1" : "Responsive Web Development",
+        "title1" : "Saytların mobil və digər cihazlara uyğun hazırlanması.",
+        "name2" : "API İnteqrasiya",
+        "title2" : "Backend API-lərlə əlaqə qurub məlumatları dinamik göstərmək.",
+        "name3" : "Animasiya və Effektlər",
+        "title3" : "CSS və JavaScript ilə interaktiv animasiyalar yaratmaq."
+    },
+    "header_buttons" : {
+        "home" : "Ana Səhifə",
+        "about" : "Haqqımda",
+        "portfolio" : "Portfel",
+        "services" : "Xidmətlər",
+        "resume" : "CV",
+        "contact" : "Əlaqə"
+    },
+    "home_texts" : {
+        "my_name" : "Mən Məhəmməd Hüseynov",
+        "my_job" : "Junior Front-end Developer",
+        "welcome" : "Portfelimə",
+        "my_portfolio" : "Xoş gəlmisiniz"
+    },
+    "my_bio_texts" : {
+        "my_bio" : "Bioqrafiyam",
+        "bio" : "Salam, mən Məhəmməd Hüseynov. Frontend sahəsinə böyük marağım var və bu sahədə özümü inkişaf etdirməyə çalışıram.",
+        "hire_me" : "məni işə götür",
+        "download_cv" : "cv yükləyin"
+    },
+    "my_portfolio_texts" : {
+        "my_portfolio" : "Portfelim",
+        "all" : "Bütün",
+        "happy" : "Responsivlik",
+        "sad" : "Animasiya və Effekt",
+        "love" : "API İnteqrasiya"
+    },
+    "resume_texts" : {
+        "resume" : "CV",
+        "work_exp" : "İş Təcrübəm",
+        "job_name" : "Junior Front End Developer",
+        "job_time" : "tam ştat",
+        "company" : "PoladTech Proyekti",
+        "city" : "Bakı",
+        "date" : "Fevral 2025",
+        "certificate" : "Sertifikat",
+        "c_name" : "Front End Development",
+        "date2" : "May 2024 - Fevral 2025"
+    },
+    "contact_me_texts" : {
+        "contact_me" : "Əlaqə",
+        "first_name" : "Ad",
+        "last_name" : "Soyad",
+        "email" : "Email adres",
+        "message" : "Mesaj",
+        "send_message" : "mesaj göndər",
+        "address" : "Ünvan",
+        "address_text" : "Bakı şəhəri, Yasamal",
+        "phone"  : "Telefon"
+    },
+    "footer_texts" : {
+        "about" : "Haqqımda",
+        "about_text" : "Salam, mən Məhəmməd Hüseynov. Frontend sahəsinə böyük marağım var və bu sahədə özümü inkişaf etdirməyə çalışıram.",
+        "connect" : "Əlaqə",
+        "services" : "Xidmətlər",
+        "responsive" : "Responsiv Dizayn",
+        "api" : "API İnteqrasiya",
+        "animation" : "Animasiya və Effektlər",
+        "portfolio" : "Portfel",
+        "contact" : "Əlaqə",
+        "address" : "Bakı şəhəri, Yasamal"
+    }
+}
