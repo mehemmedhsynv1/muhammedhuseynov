@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/repo-adi/static/css/main.ea1fdb29.css",
+    "main.js": "/repo-adi/static/js/main.9ee276a3.js",
+    "static/media/responsive-img2.png": "/repo-adi/static/media/responsive-img2.630c7dd6b3136328257c.png",
+    "static/media/css2.png": "/repo-adi/static/media/css2.b689bb656abeaf60f196.png",
+    "static/media/api-integration.webp": "/repo-adi/static/media/api-integration.81d4dcdcb7f909eb8f3f.webp",
+    "static/media/portfolio-img.png": "/repo-adi/static/media/portfolio-img.157a2117bef52ed3b252.png",
+    "static/media/responsive-img.jpeg": "/repo-adi/static/media/responsive-img.ed6361bf6dd331505e8f.jpeg",
+    "static/media/animation1.webp": "/repo-adi/static/media/animation1.e24ec5625e10a48ca432.webp",
+    "static/media/dotted2.avif": "/repo-adi/static/media/dotted2.b6c1395a798d4f19c3c0.avif",
+    "static/media/homebg.png": "/repo-adi/static/media/homebg.4a68bbbacd76ab08dade.png",
+    "static/media/about-img.png": "/repo-adi/static/media/about-img.46bb296a0a740d5a821b.png",
+    "static/media/hi-img.png": "/repo-adi/static/media/hi-img.a455a861640d5ca7e723.png",
+    "static/media/api-integration2.png": "/repo-adi/static/media/api-integration2.7bf9c0627881e6097d7b.png",
+    "static/media/bg-footer.jpg": "/repo-adi/static/media/bg-footer.dd588a32bbaf111ba312.jpg",
+    "static/media/html2.png": "/repo-adi/static/media/html2.e1dd2cb2f9ee3b747c94.png",
+    "static/media/react.png": "/repo-adi/static/media/react.2a0cac33f155e4a27216.png",
+    "index.html": "/repo-adi/index.html",
+    "main.ea1fdb29.css.map": "/repo-adi/static/css/main.ea1fdb29.css.map",
+    "main.9ee276a3.js.map": "/repo-adi/static/js/main.9ee276a3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea1fdb29.css",
+    "static/js/main.9ee276a3.js"
+  ]
+}
